@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gourmet Dining</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+
+    <!-- 1. Header Section -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3 text-warning" href="#">Gourmet Gastronome</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#restaurantNav"
+                aria-controls="restaurantNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="restaurantNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 2. Hero Section -->
+    <header id="home" class="hero-section d-flex align-items-center justify-content-center text-center text-white p-4">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">Exquisite Taste, Unforgettable Moments</h1>
+            <p class="lead mb-4 col-md-8 mx-auto">Experience culinary perfection crafted with locally sourced organic
+                ingredients and passionate expertise.</p>
+            <a href="#menu" class="btn btn-warning btn-lg px-4 fw-bold rounded-pill shadow">Explore Our Menu</a>
+        </div>
+    </header>
+
+    <!-- 3. Menu Section -->
+    <section id="menu" class="py-5">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold">Featured Dishes</h2>
+                <p class="text-muted">Handcrafted by our executive head chef</p>
+            </div>
+            <div class="row g-4">
+                <!-- Item 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80"
+                            class="card-img-top" alt="Ribeye Steak">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Prime Ribeye Steak</h5>
+                                <span class="badge bg-warning text-dark fs-6">$34.99</span>
+                            </div>
+                            <p class="card-text text-muted">Grilled 12oz grass-fed beef served with garlic herb butter
+                                and roasted seasonal vegetables.</p>
+                            <button class="btn btn-outline-dark mt-auto w-100">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow">
+                        <img src="https://images.unsplash.com/photo-1791410299868-2e8efa1de76c?q=80&w=1313&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                            class="card-img-top" alt="Truffle Pasta">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Truffle Fettuccine</h5>
+                                <span class="badge bg-warning text-dark fs-6">$26.50</span>
+                            </div>
+                            <p class="card-text text-muted">Fresh hand-rolled pasta tossed in wild mushroom cream sauce
+                                and finished with shaved black truffles.</p>
+                            <button class="btn btn-outline-dark mt-auto w-100">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm hover-shadow">
+                        <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80"
+                            class="card-img-top" alt="Seared Salmon">
+                        <div class="card-body d-flex flex-column">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h5 class="card-title fw-bold mb-0">Pan-Seared Salmon</h5>
+                                <span class="badge bg-warning text-dark fs-6">$29.00</span>
+                            </div>
+                            <p class="card-text text-muted">Wild Atlantic salmon fillet served over saffron risotto and
+                                lemon-caper beurre blanc.</p>
+                            <button class="btn btn-outline-dark mt-auto w-100">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. About Us Section -->
+    <section id="about" class="py-5 bg-white">
+        <div class="container py-4">
+            <div class="row align-items-center g-5">
+                <div class="col-12 col-md-6">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=800&q=80"
+                        class="img-fluid rounded-4 shadow" alt="Restaurant Interior">
+                </div>
+                <div class="col-12 col-md-6">
+                    <h2 class="display-5 fw-bold mb-3">Our Culinary Story</h2>
+                    <p class="lead text-secondary">Founded with a vision to blend rustic flavors with contemporary
+                        elegance.</p>
+                    <p class="text-muted">At Gourmet Gastronome, we believe that great dining is more than just
+                        food—it's an experience. Established in 2015, our kitchen works directly with local farm
+                        suppliers to ensure every ingredient reaches your table at peak freshness.</p>
+                    <div class="d-flex gap-3 mt-4">
+                        <div class="border-end pe-3">
+                            <h4 class="fw-bold mb-0 text-warning">100%</h4>
+                            <small class="text-muted">Organic Ingredients</small>
+                        </div>
+                        <div>
+                            <h4 class="fw-bold mb-0 text-warning">15+</h4>
+                            <small class="text-muted">Award-Winning Chefs</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Contact Section -->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="card border-0 shadow-sm p-4 rounded-4">
+                        <h3 class="fw-bold text-center mb-4">Reserve a Table</h3>
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label font-semibold">Full Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label font-semibold">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="john@example.com"
+                                    required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label font-semibold">Special Requests / Message</label>
+                                <textarea class="form-control" id="message" rows="4"
+                                    placeholder="Let us know about dietary restrictions or special occasions..."
+                                    required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-warning w-100 fw-bold py-2 shadow-sm">Submit
+                                Reservation</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+            <p class="mb-2 mb-md-0">&copy; 2026 Gourmet Gastronome. All rights reserved.</p>
+            <div class="d-flex gap-3 fs-5">
+                <a href="#" class="text-decoration-none text-white"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-decoration-none text-white"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-decoration-none text-white"><i class="bi bi-twitter-x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
